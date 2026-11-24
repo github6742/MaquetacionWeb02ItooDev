@@ -151,6 +151,24 @@ section ul li{
     height: 299px;
     background:  rgba(0,255,255,.5);
 }
+
+section ul li h1{
+    margin: 23px 27px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+section ul li p{
+    margin: 23px 28px;
+    font-size: 15px;
+}
+
+section ul li img{
+    margin: 1px 29px;
+    width: 273px;
+    height: 83px;
+    background: silver;
+}    
 /* SECTION FIN */
 /* *************** */
 /* *************** */
@@ -167,6 +185,37 @@ section ul li{
     height: 190px;
     background: rgba(0,0,255,0.5);
 }
+
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 190px;
+    background: rgba(0,0,255,0.5);
+}
+
+#bottom ul li h1{
+    margin: 13px 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+#bottom ul li ol{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 190px;
+    height: 80px;
+    background: rgba(255,0,0,0.5);
+}
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: white;
+}
+
 /* BOTTOM FIN */
 /* *************** */
 /* *************** */
