@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: url(../img/index.webp);
+    background-position: top center;
+    height: 1080px;
+}
+/* *************** */
+/* *************** */
+/* CABEZOTE */
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    background: rgba(255,255,0,.5);
+}
+/* CABEZOTE FIN */
+/* *************** */
+/* *************** */
+
+/* *************** */
+/* *************** */
+/* BARRA DE NAVEGACION */
+nav {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background: rgba(255,0,0,.5);
+}
+/* BARRA DE NAVEGACION FIN*/
+/* *************** */
+/* *************** */
+
+/* *************** */
+/* *************** */
+/* SLIDE */
+#slide{
+    position:relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+    background: rgba(0,0,255,0.5);
+}
+/* SLIDE FIN */
+/* *************** */
+/* *************** */
+
+
+
+/* *************** */
+/* *************** */
+/* BOTONERA SLIDE */
+#slide{
+    position:relative;
+    margin: auto;
+    width: 1000px;
+    height: 26px;
+    background: rgba(70,255,0,0.5);
+}
+/* BOTONERA SLIDE FIN */
+/* *************** */
+/* *************** */
+
+
+
+
+
+/* *************** */
+/* *************** */
+/* SECTION */
+section{
+    position:relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: rgba(0,255,0,0.5);
+}
+/* SECTION FIN */
+/* *************** */
+/* *************** */
+
+
+
+/* *************** */
+/* *************** */
+/* BOTTOM */
+#bottom{
+    position:relative;
+    margin: auto;
+    width: 1000px;
+    height: 190px;
+    background: rgba(0,0,255,0.5);
+}
+/* BOTTOM FIN */
+/* *************** */
+/* *************** */
+
+
+/* *************** */
+/* *************** */
+/* FOOTER */
+footer{
+    position:relative;
+    margin: auto;
+    width: 1000px;
+    height: 62px;
+    background: rgba(255,0,0,0.5);
+}
+/* FOOTER FIN */
+/* *************** */
+/* *************** */
