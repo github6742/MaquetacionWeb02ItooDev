@@ -5,8 +5,7 @@
     list-style: none;
     font-family: sans-serif;
 }
-body{
-    
+body{    
     background: url(../img/background.png);
     background-repeat: repeat;
 }
@@ -76,15 +75,15 @@ nav ul li{
     position:relative;
     margin: auto;
     width: 1000px;
-    height: 301px;
+    height: 101px;
     /* background: rgba(0,0,255,0.5); */
     /* nuevo */
-    background: url(../img/index.webp);
+    /* background: url(../img/index.webp); */
     /* background-position: top center;
     height: 1080px;  */
-     background-position: center center;
+     /* background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* background-attachment: fixed; */
     /* min-height: 100vh; */
 }
@@ -103,13 +102,14 @@ nav ul li{
     width: 1000px;
     height: 26px;
     /* background: rgba(70,255,0,0.5); */
+    background: url(../img/backgroundBotonesSlice.png);
 }
 #botoneraSlide ul{
     position:relative;
     margin: auto;
     width: 100px;
     height: 26px;
-    background: rgba(255,255,0,0.5);
+    /* background: rgba(255,255,0,0.5); */
 }
 
 #botoneraSlide ul li{
@@ -117,7 +117,7 @@ nav ul li{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background: black;
+    background: #232d80;
     border: 3px solid white;
     margin:3px 2px;
 }
@@ -138,6 +138,7 @@ section{
     width: 1000px;
     height: 299px;
     /* background: rgba(0,255,0,0.5); */
+    background-color: white;
 }
 
 section ul li{
@@ -186,6 +187,7 @@ section ul li img{
     width: 250px;
     height: 190px;
     /* background: rgba(0,0,255,0.5); */
+    background: url(../img/backgroundBotonesSlice.png);
 }
 
 #bottom ul li h1{
@@ -217,7 +219,8 @@ section ul li img{
     width: 95px;
     height: 95px;
     border: 4px solid white;
-    background: silver;
+    background: url(../img/galeria.png);
+    background-size: cover;
 }
 
 #bottom ul li ul {
@@ -226,7 +229,7 @@ section ul li img{
     left: 15px;
     width: 200px;
     height: 40px;
-    background: rgba(255,0,255,.05);
+    /* background: rgba(255,0,255,.05); */
 
 }
 
@@ -239,7 +242,25 @@ section ul li img{
     margin: 5px;
 }
 
+#bottom ul li ul li:first-child{
+    background: url(../img/facebook.png);
+    background-size: cover;
+}
 
+#bottom ul li ul li:nth-child(2){
+    background: url(../img/google.png);
+    background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(3){
+    background: url(../img/pinterest.png);
+    background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(4){
+    background: url(../img/twitter.png);
+    background-size: cover;
+}
 
 /* BOTTOM FIN */
 /* *************** */
