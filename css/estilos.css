@@ -125,14 +125,11 @@ nav ul li{
 /* *************** */
 /* *************** */
 
-
-
-
-
 /* *************** */
 /* *************** */
-/* SECTION */
-section{
+/* SECTION INICIO */
+
+section#inicio{
     position:relative;
     margin: auto;
     width: 1000px;
@@ -165,11 +162,63 @@ section ul li img{
     height: 83px;
     background: silver;
 }    
-/* SECTION FIN */
+/* SECTION INICIO FIN */
 /* *************** */
 /* *************** */
 
 
+/* *************** */
+/* *************** */
+/* SECTION QUIENES SOMOS */
+section#quienesSomos{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    /* background: white; */
+    background:url(../img/quienesSomos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+/* SECTION QUIENES SOMOS FIN */
+/* *************** */
+/* *************** */
+
+
+
+
+/* *************** */
+/* *************** */
+/* SECTION SERVICIOS */
+section#servicios{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
+}   
+
+/* SECTION SERVICIOS FIN */
+/* *************** */
+/* *************** */
+
+
+
+/* *************** */
+/* *************** */
+/* SECTION CONTACTENOS */
+section#contactenos{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background:url(../img/quienesSomos.png);
+}   
+
+/* SECTION CONTACTENOS FIN */
+/* *************** */
+/* *************** */
 
 /* *************** */
 /* *************** */
