@@ -175,11 +175,43 @@ section#quienesSomos{
     margin: auto;
     width: 1000px;
     height: 299px;
-    /* background: white; */
-    background:url(../img/quienesSomos.png);
+    background: white; 
+    /*background:url(../img/quienesSomos.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }   
+
+section#quienesSomos h1{
+    position:relative;
+    top: 15px;
+    left: 27px;
+    color:#1f1d21;
+    font-weight: 100;
+}
+
+section#quienesSomos hr{
+    position:relative;
+    top: 20px;
+    width: 950px;
+    margin: auto;
+    border: 1px solid #c6c6c6c6;
+}
+
+section#quienesSomos p{
+    position:relative;
+    top: 40px;
+    width: 950px;
+    margin: auto;
+    color: #414042;
+    text-align: justify;
+}
+
+section#quienesSomos img{
+    float: left;
+    width: 272px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 
 /* SECTION QUIENES SOMOS FIN */
 /* *************** */
