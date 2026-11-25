@@ -228,9 +228,37 @@ section#servicios{
     margin: auto;
     width: 1000px;
     height: 299px;
-    background: white;
+    /* background: white; */
+    background: url(../img/servicios1.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: contain;
 }   
+section#servicios #cajaServicios{
+    position: relative;
+    width: 935px;
+    height: 262px;
+    margin: auto;
+    top: 18px;
+    background: rgba(255,0,0,0.5);
+    background: url(../img/servicios1.png);
+    box-shadow: 0px 0px 30px #222;
+}
 
+section#servicios #cajaServicios ul#lista{
+    position:absolute;
+    top: 20px;
+    left: 15px;
+    width: 151px;
+    height: 220px;
+    background: blue;
+}
+
+section#servicios #cajaServicios ul#lista li{
+    width: 151px;
+    height: 72px;
+    margin: 2px 0;
+}
 /* SECTION SERVICIOS FIN */
 /* *************** */
 /* *************** */
