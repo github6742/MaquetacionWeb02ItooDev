@@ -313,9 +313,67 @@ section#contactenos{
     margin: auto;
     width: 1000px;
     height: 299px;
-    background:url(../img/quienesSomos.png);
-}   
+    /* background:url(../img/contactenos.png); */
+    background: white;
+} 
 
+section#contactenos form{
+    position: relative;
+    margin: auto;
+    top:32px;
+    width: 910px;
+    height: 232px;
+    /* background: rgba(255,0,0,0.5); */
+    background: white;
+}
+
+section#contactenos form input#nombre{
+    position:absolute;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background:  #dce9d7;
+    border: 0;
+}
+section#contactenos form input#email{
+    position:absolute;
+    top: 81px;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background:  #dce9d7;
+    border: 0;
+}
+section#contactenos form input#asunto{
+    position:absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background:  #dce9d7;
+    border: 0;
+}
+section#contactenos form #mensaje{
+    position:absolute;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 128px;
+    background:  #dce9d7;
+    border: 0;
+}
+
+section#contactenos form #enviar{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    width: 604px;
+    height: 69px;
+    background: #1a1d20;
+    border: 0;
+    color: white;
+}
 /* SECTION CONTACTENOS FIN */
 /* *************** */
 /* *************** */
